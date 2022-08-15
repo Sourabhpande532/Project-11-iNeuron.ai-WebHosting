@@ -1,0 +1,130 @@
+@media screen and (max-width: 325px) {
+  .card_section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 1.4rem;
+  }
+  .line {
+    border-bottom: 2px solid rgb(219, 211, 211);
+    padding: 0.6rem 0;
+  }
+  .nav_logo {
+    width: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .line {
+    border-bottom: 2px solid rgb(219, 211, 211);
+    padding: 0.6rem 0;
+  }
+  .nav_logo {
+    width: 6rem;
+  }
+  .Main-c1 {
+    margin-top: 1.4rem;
+  }
+  .main-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-c .content {
+    font-size: xx-small;
+  }
+  .main-c .content p {
+    max-width: 16rem;
+    color: grey;
+  }
+  .main-c h6 {
+    max-width: 13.5rem;
+    color: gray;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .main-c h5 {
+    font-size: 2rem;
+    text-align: center;
+    color: #7b8ca0;
+    padding-top: 1.9rem;
+  }
+
+  figure img {
+    max-width: 66vw;
+    position: relative;
+    margin: 0.7rem 0;
+  }
+  .main-c2 figure .server_img {
+    width: 20rem;
+    position: relative;
+    right: 3.9rem;
+  }
+  .main-c2 .content {
+    font-size: xx-small;
+    align-items: center;
+  }
+  .content h1 {
+    font-size: 1.6rem;
+  }
+  .content button {
+    font-size: xx-small;
+  }
+  .content p {
+    max-width: 16rem;
+  }
+  .server_part {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .wrapper .card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card_section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card_container .card_section .inner_content {
+    background-color: red;
+    min-height: 340px;
+    min-width: 280px;
+    padding: 19px 12px;
+    border-radius: 12px;
+  }
+
+  .review_card .inner_one {
+    min-height: 180px;
+    min-height: 250px;
+    min-width: 280px;
+    border-radius: 5px;
+  }
+  .review_card {
+    position: relative;
+    left: -5rem;
+  }
+  .faint_two h1 {
+    font-size: xx-large;
+    font-weight: 800;
+  }
+}
+
+.hamburger {
+  display: none;
+}
+@media only screen and (max-width: 950px) {
+  .Main-c1 {
+    position: relative;
+    padding: 0 20px;
+  }
+  .Main-c1 nav {
+    display: none;
+  }
+  .hamburger {
+    cursor: pointer;
+    display: block;
+  }
+}
