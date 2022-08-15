@@ -4,7 +4,7 @@ By **saurabh**
 ![](https://img.shields.io/static/v1?label=Project-11&message=iNeuron&color=blue)
 
 
-[Go LIVE](https://apis-category-ineuron.netlify.app/)
+[Go LIVE](https://webhosting-ineuron.netlify.app/)
 
 ![completeWebsite](./assets/Screenshot%20(1).png)
 
