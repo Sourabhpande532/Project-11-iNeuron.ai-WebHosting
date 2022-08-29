@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 760px) {
   .line {
     border-bottom: 2px solid rgb(219, 211, 211);
     padding: 0.6rem 0;
@@ -24,6 +24,12 @@
   }
   .Main-c1 {
     margin-top: 1.4rem;
+  }
+  .main-c2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
   }
   .main-c {
     display: flex;
@@ -64,6 +70,12 @@
   .main-c2 .content {
     font-size: xx-small;
     align-items: center;
+    text-align: center;
+  }
+  
+
+  .main-c .content{
+    text-align: center;
   }
   .content h1 {
     font-size: 1.6rem;
@@ -81,11 +93,15 @@
   .wrapper .card-main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+   
   }
+
   .card_section {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
+    justify-content: center;
+    gap: 140px;
   }
 
   .card_container .card_section .inner_content {

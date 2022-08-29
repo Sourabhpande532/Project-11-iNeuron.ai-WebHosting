@@ -22,7 +22,6 @@
   justify-content: space-between;
   padding-top: 10%;
   display: flex;
-  flex-wrap: wrap-reverse;
   justify-content: center;
   gap: 2.7rem;
 }
@@ -31,7 +30,6 @@
   justify-content: space-between;
   padding-top: 10%;
   display: flex;
-  flex-wrap: wrap-reverse;
   justify-content: center;
 }
 .line {
@@ -85,11 +83,11 @@ h1 {
 .card-main {
   display: flex;
   justify-content: space-between;
-  padding: 35px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 90px;
+  padding: 0 50px;
   /* margin:0 auto;
     max-width: 1000px;
     display: grid;
@@ -137,15 +135,14 @@ h1 {
 .card_container {
   background-color: rgb(102, 102, 146);
   padding-bottom: 3%;
+  text-align: center;
 }
 
 .card_section {
   display: flex;
-  justify-content: space-between;
-  padding: 35px;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 140px;
+  padding: 0 50px;
 }
 
 .card_section .packages_mo {
